@@ -20,9 +20,7 @@ def returns_num(numbers):
     
 returns_num(liczby)
 print('##########') 
-
-
-print('##########')   
+  
 # zad 2c
 n = (n for n in range(1,10))
 def even_numbers(numbers):
@@ -36,7 +34,7 @@ print('##########')
 # zad 2d
 n = (n for n in range(1,10))
 def second_numbers(numb):
-    for i in numb:
+    for i in range(1,10,2):
         print(i)
 
 second_numbers(n)

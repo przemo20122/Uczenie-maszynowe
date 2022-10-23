@@ -27,7 +27,7 @@ class Student:
         self._marks = value
 
     def is_passed(self) -> bool:
-        if (self.marks > 50):
+        if self.marks > 50:
             return True
         else:
             return False

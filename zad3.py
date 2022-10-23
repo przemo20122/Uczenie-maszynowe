@@ -6,7 +6,7 @@ Created on Mon Oct 17 14:19:58 2022
 """
 
 
-class Property():
+class Property:
     def __init__(self, area, rooms: int, price, address):
         self.area = area
         self.rooms = rooms

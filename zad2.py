@@ -5,7 +5,7 @@ Created on Mon Oct 17 13:57:12 2022
 @author: Przemek
 """
 
-class Library():
+class Library:
     def __init__(self, city, street, zip_code, open_hours: str, phone):
         self.city = city
         self.street = street
@@ -16,7 +16,7 @@ class Library():
     def __str__(self):
         return "Biblioteka: {}, {}, {}, {}, {}".format(self.city, self.street, self.zip_code, self.open_hours, self.phone) 
         
-class Employee():
+class Employee:
     def __init__(self, first_name, last_name,hire_date, birth_date, city, street, zip_code, phone):
         self.first_name = first_name
         self.last_name = last_name
@@ -31,7 +31,7 @@ class Employee():
         return "Prac:{}, {}, {}, {}, {}, {}, {}, {}".format(self.first_name, self.last_name, self.hire_date, self.birth_date, self.city, self.street, self.zip_code, self.phone) 
 
         
-class Book():
+class Book:
     def __init__(self, librabry, publication_date, author_name, author_surname, number_of_pages):
         self.librabry = librabry
         self.publication_date = publication_date
@@ -42,11 +42,11 @@ class Book():
     def __str__(self):
         return "Ksiazka:{}, {}, {}, {}, {}".format(self.librabry, self.publication_date, self.author_name, self.author_surname, self.number_of_pages)
 
-class Student():
+class Student:
     def __init__(self, name):
         self.name = name
         
-class Order():
+class Order:
     def __init__(self, employee, student, books, order_date):
         self.employee = employee
         self.student = student

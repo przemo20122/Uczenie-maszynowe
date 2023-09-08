@@ -1,1 +1,1 @@
-Uczenie maszynowe
+Repository from machine learning classes.
